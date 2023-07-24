@@ -1,0 +1,57 @@
+.noteOptions{
+    display: flex;
+    align-self: self-end;
+}
+.noteOptions i{
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.fa-trash{
+    transition: all 0.2s ease;
+}
+.fa-trash:hover{
+    color: #ff0000;
+    transition: all 0.2s ease;
+}
+.fa-edit{
+    transition: all 0.2s ease;
+}
+.fa-edit:hover{
+    color: rgb(0, 255, 0);
+    transition: all 0.2s ease;
+}
+
+.card {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #1b1b1be4;
+    width: 17em;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.2);
+}
+
+.infoContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+}
+.title {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+.description {
+    margin-top: 5px;
+    color: rgb(218, 218, 218);
+    width: 100%;
+}
+
+.sourceInfo{
+    margin-top: auto;
+    padding: 10px;
+    font-size: 0.9em;
+    color: rgb(163, 163, 163);
+}

@@ -1,0 +1,65 @@
+nav {
+    display: flex;
+    height: 75px;
+    align-items: center;
+    background-color: #1b1b1b;
+    flex-direction: row;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 1vw;
+}
+
+nav ul li a {
+    color: rgba(255, 255, 255, 0.754);
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+
+.active {
+    color: white !important;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+.fa-book {
+    color: #8739F9;
+    font-size: 40px;
+    margin-left: 25px;
+}
+
+.auth-section {
+    margin: 0 1em;
+    margin-left: auto!important;
+}
+.btn-purple{
+    border: none;
+    background-color: #8739F9;
+    margin: 0 5px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn-purple:hover{
+    background-color: #8639f9be;
+}
+.btn-outline {
+    background-color: transparent!important;
+    border: 1px solid #8739F9;
+    color: #8739F9!important;
+}
+.btn-outline:hover{
+    background-color: transparent!important;
+    border: 1px solid #8639f9be;
+    color: #8639f9be!important;
+}

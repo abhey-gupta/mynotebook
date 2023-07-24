@@ -1,0 +1,55 @@
+.addNoteForm{
+    background-color: #242424;
+    width: 350px;
+    /* margin: 1em; */
+    border-radius: 10px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.addNoteForm h1{
+    margin: auto;
+    margin-bottom: 10px;
+}
+.addNoteForm span{
+    margin: 5px 0;
+    font-size: 1.2em;
+}
+.addNoteForm input[type="text"]{
+    margin: 5px 0;
+    font-size: 1.2em;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+}
+.addNoteForm textarea{
+    margin: 5px 0;
+    padding: 5px;
+    border: none;
+    font-size: 1.3em;
+    border-radius: 5px;
+}
+.addNoteForm button{
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #8739f9;
+    color: white;
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 5px 0;
+}
+.addNoteForm button:hover{
+    background-color: #8639f9b9;
+}
+
+.dropdown {
+    margin: 10px 0;
+}
+
+.dropdown select {
+    /* height: 30px; */
+    padding: 10px;
+}
